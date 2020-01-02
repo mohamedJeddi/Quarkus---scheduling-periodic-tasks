@@ -10,6 +10,7 @@ You can run your application in dev mode that enables live coding using:
 ```
 ./mvnw quarkus:dev
 ```
+In another terminal, run curl localhost:8080/count to check the counter value. After a few seconds, re-run curl localhost:8080/count to verify the counter has been incremented.
 
 ## Packaging and running the application
 
